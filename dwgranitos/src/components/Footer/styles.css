@@ -1,0 +1,40 @@
+.divFooter{
+  background-color: #800020;
+
+}
+
+.footer {
+  margin-top: auto;
+  padding: 10px;
+  color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: bold;
+}
+.colunasFooter{
+  width: 100%;
+}
+.coluna-contato,
+.coluna-endereco
+ {
+  width: 30%;
+}
+
+.coluna-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.coluna-links ul li {
+  margin-bottom: 5px;
+}
+
+
+
+
+
+/* Ajuste os estilos conforme necessário */

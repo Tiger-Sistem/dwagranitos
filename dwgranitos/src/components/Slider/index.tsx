@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "./styles.css";
 
 import "react-alice-carousel/lib/alice-carousel.css";

@@ -4,7 +4,7 @@ import Menu from "./Menu";
 import logo from "../../assets/images/logo.png"; // Importe seu logotipo ou substitua pelo caminho correto
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faFlag, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import brazilFlag from "../../assets/images/brazil-flag.jpg"; // Importe a imagem da bandeira do Brasil
 import usaFlag from "../../assets/images/usa-flag.jpg"; // Importe a imagem da bandeira do Brasil
 

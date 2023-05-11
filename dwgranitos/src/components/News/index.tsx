@@ -3,10 +3,10 @@ import "./styles.css";
 
 import imagem from "../../assets/images/banner1.jpg";
 
-const PresentationPisos = () => {
+const News = () => {
   return (
-    <div className="presentation-pisos">
-      <h2 className="titulo">Pisos</h2>
+    <div className="presentation-news">
+      <h2 className="titulo">Últimas Notícias</h2>
 
       <p className="paragrafo">Texto do parágrafo centralizado</p>
       <div className="imagens">
@@ -19,4 +19,4 @@ const PresentationPisos = () => {
   );
 };
 
-export default PresentationPisos;
+export default News;

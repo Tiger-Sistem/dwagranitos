@@ -7,7 +7,6 @@ import Button from "../Button";
 const PresentationEngineering = () => {
   return (
     <div className="presentation-engineering">
-      <hr className="linha" />
       <h2 className="titulo">Engenharia</h2>
 
       <p className="paragrafo">Texto do parágrafo centralizado</p>

@@ -4,6 +4,7 @@ import CorpoHome from "../../components/Corpo";
 import PresentationMaterials from "../../components/PresentationMaterials";
 import PresentationPisos from "../../components/PresentationPisos";
 import PresentationEngineering from "../../components/PresentationEngineering";
+import News from "../../components/News";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <PresentationMaterials />
       <PresentationPisos />
       <PresentationEngineering />
+      <News />
     </div>
   );
 }

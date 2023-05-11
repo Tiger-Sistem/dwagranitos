@@ -13,11 +13,12 @@ function Header() {
     <header className="header">
       <div className="faixa">
         <div className="header-icons">
-          <div className="left-icons">
-            <FontAwesomeIcon icon={faPhone} />
-          </div>
-
           <div className="right-icons">
+            <div className="left-icons">
+              <FontAwesomeIcon icon={faPhone} />
+            </div>
+            <aside className="phoneAside"> (28) 3524 2288</aside>
+
             <aside> WHATSAPP: (28) 99956-3579 |</aside>
             <FontAwesomeIcon icon={faInstagram} />
             <FontAwesomeIcon icon={faFacebook} />

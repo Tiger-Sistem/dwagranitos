@@ -28,12 +28,6 @@ function Menu() {
         <li>
           <a href="/contato">Contato</a>
         </li>
-        <li>
-          <a href="/sobre">Quem somos</a>
-        </li>
-        <li>
-          <a href="/contato">Contato</a>
-        </li>
       </ul>
     </nav>
   );

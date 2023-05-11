@@ -1,0 +1,11 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding-top: 20px;
+}
+
+.catalog-button{
+  color: white;
+}

@@ -1,0 +1,32 @@
+.presentation-pisos {
+  text-align: center;
+  background-color: #f1e7e7;
+  margin-top: 40px;
+  padding-top: 20px;
+}
+
+.titulo {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.linha {
+  border: none;
+  border-top: 1px solid #000;
+  margin-bottom: 10px;
+}
+
+.paragrafo {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.imagens {
+  display: flex;
+}
+
+.imagens img {
+  width: 200px;
+  height: auto;
+  margin-right: 10px;
+}

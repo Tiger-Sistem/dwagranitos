@@ -20,10 +20,13 @@
 
 .imagens {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .imagens img {
-  width: 200px;
-  height: auto;
-  margin-right: 10px;
+  flex: 0 0 25%; /* 25% para cada imagem, para que ocupem 4 colunas */
+  margin: 0; /* Remover margens */
+  padding: 0;
+  margin-right:0px !important;
 }
+

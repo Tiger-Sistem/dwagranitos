@@ -4,13 +4,13 @@ import NameCompany from "./nameEmpresa";
 
 const Footer = () => {
   return (
-    <div className="divFooter">
+    <div className="divFooter navbar-fixed-bottom">
       <footer className="footer">
         <div className="logo">Logo</div>
         <div className="coluna-contato">
           <h3>Contato</h3>
-          <p>Telefone: (XX) XXXX-XXXX</p>
-          <p>Celular: (XX) XXXXX-XXXX</p>
+          <p>Telefone: (28) 3524-2288</p>
+          <p>Celular: (28) 99956-3579</p>
           <p>Email: exemplo@example.com</p>
         </div>
         <div className="coluna-endereco">

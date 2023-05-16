@@ -7,9 +7,7 @@ interface ButtonProps {
 const Button = ({ buttonText }: ButtonProps) => {
   return (
     <div className="button-container">
-      <button className="catalog-button" style={{ backgroundColor: "#800020" }}>
-        {buttonText}
-      </button>
+      <button className="catalog-button">{buttonText}</button>
     </div>
   );
 };

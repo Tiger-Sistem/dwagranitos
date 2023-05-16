@@ -4,8 +4,8 @@ import CorpoHome from "../../components/Corpo";
 import PresentationMaterials from "../../components/PresentationMaterials";
 import PresentationPisos from "../../components/PresentationPisos";
 import PresentationEngineering from "../../components/PresentationEngineering";
-import News from "../../components/News";
-import Footer from "../../components/Footer";
+// import News from "../../components/News";
+// import Footer from "../../components/Footer";
 
 function Home() {
   return (
@@ -15,7 +15,7 @@ function Home() {
       <PresentationMaterials />
       <PresentationPisos />
       <PresentationEngineering />
-      <News />
+      {/* <News /> */}
     </div>
   );
 }

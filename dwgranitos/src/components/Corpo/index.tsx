@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import imagem from "../../assets/images/banner1.jpg";
+import imagem from "../../assets/images/company.jpg";
 const CorpoHome = () => {
   return (
     <div className="corpo">

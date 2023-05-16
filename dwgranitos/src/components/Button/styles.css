@@ -8,4 +8,15 @@
 
 .catalog-button{
   color: white;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: #800020
+}
+
+.catalog-button:hover{
+  margin-top: 10px;
+  transform: scale(1.1, 1.1);
+
 }

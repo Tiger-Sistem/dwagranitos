@@ -1,12 +1,16 @@
 import React from "react";
 import "./styles.css";
 import NameCompany from "./nameEmpresa";
+import { Image } from "react-bootstrap";
+import LogoRodape from "../../assets/images/logo-rodape.png";
 
 const Footer = () => {
   return (
     <div className="divFooter navbar-fixed-bottom">
       <footer className="footer">
-        <div className="logo">Logo</div>
+        <div className="logoRodape">
+          <Image src={LogoRodape} />
+        </div>
         <div className="coluna-contato">
           <h3>Contato</h3>
           <p>Telefone: (28) 3524-2288</p>

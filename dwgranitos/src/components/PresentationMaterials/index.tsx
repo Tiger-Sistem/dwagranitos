@@ -32,8 +32,14 @@ const PresentationMaterials = () => {
       <hr className="linha" />
       <h2 className="titulo">Nossos Materiais</h2>
 
-      <p className="paragrafo">Texto do parágrafo centralizado</p>
-      <div className="imagens">
+      <p className="paragrafo">
+        A DW Granitos atua em perfeita sintonia com seus clientes, fornecendo
+        uma linha completa de materiais que atende às suas necessidades. Estamos
+        comprometidos em oferecer o material ideal para a sua obra. Caso não
+        encontre o que procura, entre em contato conosco e faremos o possível
+        para atender às suas demandas.
+      </p>
+      <div className="imagens imgMaterial">
         <img src={AmareloFlorença} alt="Imagem 1" />
         <img src={AmareloVitoria} alt="Imagem 2" />
         <img src={Arabescato} alt="Imagem 3" />

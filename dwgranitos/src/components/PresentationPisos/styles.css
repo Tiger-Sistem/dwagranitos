@@ -1,8 +1,8 @@
 .presentation-pisos {
   text-align: center;
-  background-color: #f1e7e7;
+  background-color: #976b65;
   margin-top: 40px;
-  padding-top: 20px;
+  padding: 20px;
 }
 
 .titulo {
@@ -17,7 +17,7 @@
 }
 
 .paragrafo {
-  font-size: 16px;
+  font-size: 18px!important;
   margin-bottom: 20px;
 }
 
@@ -27,6 +27,8 @@
 
 .imagens img {
   width: 200px;
-  height: auto;
+  height: 200px;
   margin-right: 10px;
+  padding: 10px;
 }
+

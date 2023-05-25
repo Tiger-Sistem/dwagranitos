@@ -7,6 +7,7 @@ import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import brazilFlag from "../../assets/images/brazil-flag.jpg"; // Importe a imagem da bandeira do Brasil
 import usaFlag from "../../assets/images/usa-flag.jpg"; // Importe a imagem da bandeira do Brasil
+import MenuHamburger from "./MenuHamburger";
 
 function Header() {
   return (
@@ -35,6 +36,9 @@ function Header() {
       <div className="container">
         <img src={logo} alt="Logo" className="logo" />
         <Menu />
+        <div className="hamburger">
+          <MenuHamburger />
+        </div>
       </div>
     </header>
   );

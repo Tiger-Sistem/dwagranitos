@@ -15,8 +15,11 @@
   color: #000000;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1290px) {
   .nav {
-  margin-top: 10px;
+    display: none!important;
   }
+  .nav-list {
+    display: none!important;
+  }  
 }

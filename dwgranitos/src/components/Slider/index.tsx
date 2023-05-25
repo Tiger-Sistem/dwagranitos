@@ -2,9 +2,9 @@ import "./styles.css";
 
 import "react-alice-carousel/lib/alice-carousel.css";
 import Carousel from "react-bootstrap/Carousel";
-import Banner1 from "../../assets/images/banner1.jpg";
-import Banner2 from "../../assets/images/banner2.jpg";
-import Banner3 from "../../assets/images/banner3.jpg";
+import Banner1 from "../../assets/images/slide/imagem1.jpg";
+import Banner2 from "../../assets/images/slide/imagem2.jpg";
+import Banner3 from "../../assets/images/slide/imagem3.jpg";
 
 const Slider = () => {
   return (

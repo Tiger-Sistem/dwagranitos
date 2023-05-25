@@ -12,7 +12,8 @@
   align-items: center;
   justify-content: center;
   height: 50px;
-  background-color: #800020
+  background-color: #bf2a2a;
+  border: none;
 }
 
 .catalog-button:hover{

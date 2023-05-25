@@ -9,7 +9,14 @@ const PresentationEngineering = () => {
     <div className="presentation-engineering">
       <h2 className="titulo">Engenharia</h2>
 
-      <p className="paragrafo">Texto do parágrafo centralizado</p>
+      <p className="paragrafo">
+        A DW Granitos tem o orgulho de ter fornecido granitos e mármores de
+        qualidade para obras de destaque no Brasil e no mundo. Apresentamos aqui
+        uma pequena amostra de alguns dos trabalhos realizados pela nossa
+        empresa. Esses projetos são exemplos do nosso compromisso com a
+        excelência e da nossa capacidade de fornecer materiais de alta qualidade
+        para empreendimentos de grande importância.
+      </p>
       <div className="PresentationEngineeringSlide">
         <Slide />
       </div>

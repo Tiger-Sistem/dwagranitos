@@ -18,7 +18,7 @@ const CorpoHome = () => {
           e linha completa de produtos e serviços.
         </p>
       </div>
-      <div className="imagem">
+      <div className="imagemCompany">
         <img src={imagem} alt="Imagem" />
       </div>
     </div>

@@ -7,7 +7,7 @@ import PresentationEngineering from "../../components/PresentationEngineering";
 // import News from "../../components/News";
 // import Footer from "../../components/Footer";
 
-function Home() {
+const Home = () => {
   return (
     <div>
       <Slider />
@@ -18,6 +18,6 @@ function Home() {
       {/* <News /> */}
     </div>
   );
-}
+};
 
 export default Home;

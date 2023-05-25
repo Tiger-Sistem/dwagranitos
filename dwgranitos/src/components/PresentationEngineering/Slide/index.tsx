@@ -1,6 +1,12 @@
 import React from "react";
 import Slider from "react-slick";
-import imagem from "../../../assets/images/banner1.jpg";
+import Engenharia from "../../../assets/images/engenharia/engenharia.jpg";
+import Engenharia2 from "../../../assets/images/engenharia/engenharia1.jpg";
+import Engenharia3 from "../../../assets/images/engenharia/engenharia2.jpg";
+import Engenharia4 from "../../../assets/images/engenharia/engenharia3.jpg";
+import Engenharia5 from "../../../assets/images/engenharia/engenharia5.jpg";
+import "../styles.css";
+
 import "../styles.css";
 import "../styles.css";
 
@@ -18,17 +24,20 @@ const Slide = () => {
   return (
     <div className="subSlider">
       <Slider {...settings}>
-        <div>
-          <img src={imagem} alt="Imagem 1" />
+        <div className="imgEngenharia">
+          <img src={Engenharia} alt="Imagem 1" />
         </div>
-        <div>
-          <img src={imagem} alt="Imagem 2" />
+        <div className="imgEngenharia">
+          <img src={Engenharia2} alt="Imagem 2" />
         </div>
-        <div>
-          <img src={imagem} alt="Imagem 3" />
+        <div className="imgEngenharia">
+          <img src={Engenharia3} alt="Imagem 3" />
         </div>
-        <div>
-          <img src={imagem} alt="Imagem 4" />
+        <div className="imgEngenharia">
+          <img src={Engenharia4} alt="Imagem 4" />
+        </div>
+        <div className="imgEngenharia">
+          <img src={Engenharia5} alt="Imagem 4" />
         </div>
       </Slider>
     </div>

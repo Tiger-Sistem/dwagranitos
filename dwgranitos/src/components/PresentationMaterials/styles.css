@@ -28,5 +28,27 @@
   margin: 0; /* Remover margens */
   padding: 0;
   margin-right:0px !important;
+  
 }
+
+@media (max-width: 800px) {
+  .presentation-materials {
+    text-align: center;
+    align-items: center;
+    
+  }
+  .imagens {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px!important;
+  }
+
+  .imagens img {
+    flex:  0  0  10%; /* 25% para cada imagem, para que ocupem 4 colunas */
+    margin-left: 10px;
+    margin: 0; 
+  }
+  
+}
+
 

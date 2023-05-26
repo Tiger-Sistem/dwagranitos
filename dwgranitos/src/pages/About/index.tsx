@@ -1,10 +1,10 @@
 import CorpoHome from "../../components/Corpo";
-import "./styles.css";
+import Title from "../../components/Title";
 
 const About = () => {
   return (
     <div>
-      <h1 className="titleAbout">Quem somos</h1>
+      <Title title="Quem somos" />
       <CorpoHome />
     </div>
   );

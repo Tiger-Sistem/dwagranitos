@@ -1,7 +1,11 @@
+import PresentationMaterials from "../../components/PresentationMaterials";
+import Title from "../../components/Title";
+
 const Catalog = () => {
   return (
     <div>
-      <h1> Em contrução</h1>
+      <Title title="Catálogo" />
+      <PresentationMaterials />
     </div>
   );
 };

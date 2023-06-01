@@ -11,15 +11,8 @@ const PresentationPisos = () => {
     <div className="presentation-pisos">
       <h2 className="titulo">Pisos</h2>
 
-      <p className="paragrafo">
-        A DW Granitos é líder no desenvolvimento da mais completa linha de pisos
-        de granito disponível no mercado. Apresentamos uma ampla variedade de
-        opções de cores, acabamentos e medidas, garantindo que você encontre o
-        produto perfeito para cada tipo de aplicação. Explore agora mesmo nossa
-        linha e descubra a qualidade e beleza incomparáveis dos nossos pisos de
-        granito.
-      </p>
-      <div className="imagens">
+      <p className="paragrafo">Texto do parágrafo centralizado</p>
+      <div className="imagens granito">
         <img src={PisoBegeBahia} alt="Imagem 1" />
         <img src={RodapePolido} alt="Imagem 2" />
         <img src={PisoElevado} alt="Imagem 3" />

@@ -5,7 +5,19 @@ const NameCompany = () => {
     <div>
       <hr className="linhaFooter" />
       <div>
-        <p className="nome-empresa">Nome da Empresa</p>
+        <p className="nome-empresa">
+          Desenvolvido por{" "}
+          <a
+            href="https://www.tigersistem.com"
+            style={{
+              color: "white",
+              fontWeight: "bold",
+              textDecoration: "none",
+            }}
+          >
+            Tiger System
+          </a>
+        </p>
       </div>
     </div>
   );

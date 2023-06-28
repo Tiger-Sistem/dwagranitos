@@ -18,7 +18,8 @@
   top:100px;
   display: flex;
   font-size: 24px;
-  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 55px;
   text-align: left;
   justify-content: flex-start;
   flex-direction: column;
@@ -36,7 +37,7 @@
 .imagemCompany img {
   padding-top: 80px;
   width: 500px;
-  height: auto;
+  height: 580px;
   flex-direction: column;
   justify-content: flex-end;
 }

@@ -3,10 +3,10 @@ import "./styles.css";
 import Submenu from "../../components/SubMenu";
 import Title from "../../components/Title";
 import { TodosComponent } from "../../components/Todos";
-import { ComercialComponent } from "../../components/Comercial";
-import PisoComponent from "../../components/Pisos/PisoComponent";
-import EscadasComponent from "../../components/Escadas/EscadasComponent";
-import PiscinasComponent from "../../components/Piscinas/PiscinasComponent";
+import { ComercialComponent } from "../../components/Todos/Comercial";
+import PiscinasComponent from "../../components/Todos/Piscinas/PiscinasComponent";
+import PisoComponent from "../../components/Todos/Pisos/PisoComponent";
+import EscadasComponent from "../../components/Todos/Escadas/EscadasComponent";
 
 const Engineering = () => {
   const [componenteAtivo, setComponenteAtivo] = useState("todos");

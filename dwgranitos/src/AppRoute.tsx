@@ -5,8 +5,8 @@ import Catalog from "./pages/Catalog";
 import Engineering from "./pages/Engineering";
 import Piso from "./pages/Pisos";
 import Blog from "./pages/Blog";
-import Orcamento from "./pages/Orcamento";
 import Contato from "./pages/Contato";
+import Orcamento from "./pages/Orcamento/Orcamento";
 
 const AppRoutes = () => {
   return (

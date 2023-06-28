@@ -33,11 +33,10 @@ const PresentationMaterials = () => {
       <h2 className="titulo">Nossos Materiais</h2>
 
       <p className="paragrafo">
-        A DW Granitos atua em perfeita sintonia com seus clientes, fornecendo
-        uma linha completa de materiais que atende às suas necessidades. Estamos
-        comprometidos em oferecer o material ideal para a sua obra. Caso não
-        encontre o que procura, entre em contato conosco e faremos o possível
-        para atender às suas demandas.
+        Nossos materiais em mármore, granito, quartzos e muito mais, oferecem a
+        combinação perfeita entre beleza, durabilidade e versatilidade,
+        proporcionando soluções sofisticadas e elegantes para todos os seus
+        projetos."
       </p>
       <div className="imagens imgMaterial">
         <img src={AmareloFlorença} alt="Imagem 1" />

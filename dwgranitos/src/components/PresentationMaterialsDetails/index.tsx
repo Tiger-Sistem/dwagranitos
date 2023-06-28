@@ -25,7 +25,6 @@ import amareloicarai from "../../assets/images/material/amarelo-icarai.jpg";
 import amarelomaracuja from "../../assets/images/material/amarelo-maracuja.jpg";
 import amarelosantacecilia from "../../assets/images/material/amarelo-santa-cecilia.jpg";
 import begebahia from "../../assets/images/material/bege-bahia.jpg";
-import ButtonDownload from "../ButtonDownload";
 
 const PresentationMaterialsDetails = () => {
   return (
@@ -40,7 +39,6 @@ const PresentationMaterialsDetails = () => {
         encontre o que procura, entre em contato conosco e faremos o possível
         para atender às suas demandas.
       </p>
-      <ButtonDownload />
       <div className="imagens imgMaterial">
         <img src={AmareloFlorença} alt="Imagem 1" />
         <img src={AmareloVitoria} alt="Imagem 2" />

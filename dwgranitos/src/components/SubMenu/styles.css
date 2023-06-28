@@ -1,0 +1,23 @@
+.submenu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.submenu li {
+  margin-right: 10px;
+}
+
+.submenu li:last-child {
+  margin-right: 0;
+}
+
+.submenu a {
+  text-decoration: none;
+  color: #000;
+}
+
+.submenu a:hover {
+  color: #ff0000;
+}

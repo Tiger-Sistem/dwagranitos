@@ -7,15 +7,32 @@ const CorpoHome = () => {
       <div className="texto">
         <h2>DW GRANITOS</h2>
         <p>
-          A Dw Granitos é uma empresa atuante no setor da construção civil
-          especializada em soluções através de rochas ornamentais, fundada em
-          Março de 2000 a empresa conta com mais de 20 anos de experiência
-          fornecendo pisos, bancadas, fachadas e design de interiores. Hoje a DW
-          Granitos é sinônimo de agilidade, qualidade e compromisso com seus
-          clientes, contando com a logística completa desde a jazida até a sua
-          entrega, nossa equipe se prepara a cada dia para trazermos o melhor
-          custo-benefício para sua obra. Venha conhecer mais sobre nossa empresa
-          e linha completa de produtos e serviços.
+          Bem-vindo à DW Granitos! Somos uma empresa especializada no
+          fornecimento e instalação de produtos em granito de alta qualidade.
+          Com anos de experiência e dedicação, orgulhamo-nos de oferecer aos
+          nossos clientes uma ampla variedade de opções de granito, desde
+          bancadas de cozinha e banheiro até revestimentos de pisos e fachadas.
+        </p>
+        <p>
+          Na DW Granitos, combinamos habilidade artesanal com tecnologia
+          avançada para criar produtos sob medida que atendam às necessidades e
+          expectativas de cada cliente. Nossa equipe altamente qualificada está
+          pronta para ajudar em todas as etapas do processo, desde o
+          planejamento e escolha dos materiais até a instalação precisa e
+          finalização impecável.
+        </p>
+        <p>
+          Priorizamos a excelência em todos os aspectos do nosso trabalho,
+          garantindo que cada projeto seja executado com perfeição e
+          durabilidade. Além disso, buscamos estabelecer relacionamentos
+          duradouros com nossos clientes, baseados na confiança, transparência e
+          satisfação mútua.
+        </p>
+        <p>
+          Se você está buscando soluções em granito de qualidade superior para a
+          sua residência, comércio ou projeto de construção, a DW Granitos é a
+          escolha certa. Entre em contato conosco hoje mesmo e permita-nos
+          transformar suas ideias em realidade.
         </p>
       </div>
       <div className="imagemCompany">

@@ -1,5 +1,6 @@
 import React, { useState, ChangeEvent } from "react";
 import "./Formulario.css"; // Importe o arquivo de estilo
+import Title from "../../components/Title";
 
 const Formulario = () => {
   const [nome, setNome] = useState("");
@@ -60,68 +61,71 @@ const Formulario = () => {
   };
 
   return (
-    <form className="formulario" onSubmit={handleSubmit}>
-      <label>
-        Nome:
-        <input
-          type="text"
-          value={nome}
-          onChange={(e) => setNome(e.target.value)}
-        />
-      </label>
-      <br />
-      <label>
-        Empresa:
-        <input
-          type="text"
-          value={empresa}
-          onChange={(e) => setEmpresa(e.target.value)}
-        />
-      </label>
-      <br />
-      <label>
-        Cidade:
-        <input
-          type="text"
-          value={cidade}
-          onChange={(e) => setCidade(e.target.value)}
-        />
-      </label>
-      <br />
-      <label>
-        Estado:
-        <input
-          type="text"
-          value={estado}
-          onChange={(e) => setEstado(e.target.value)}
-        />
-      </label>
-      <br />
-      <label>
-        Celular:
-        <input
-          type="text"
-          value={celular}
-          onChange={(e) => setCelular(e.target.value)}
-        />
-      </label>
-      <br />
-      <label>
-        Email:
-        <input
-          type="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
-      </label>
-      <br />
-      <label>
-        Projeto (PDF):
-        <input type="file" accept=".pdf" onChange={handleProjetoChange} />
-      </label>
-      <br />
-      <button type="submit">Enviar</button>
-    </form>
+    <>
+      <Title title="Orçamento" />
+      <form className="formulario" onSubmit={handleSubmit}>
+        <label>
+          Nome:
+          <input
+            type="text"
+            value={nome}
+            onChange={(e) => setNome(e.target.value)}
+          />
+        </label>
+
+        <div className="address">
+          <label>
+            Empresa:
+            <input
+              type="text"
+              value={empresa}
+              onChange={(e) => setEmpresa(e.target.value)}
+            />
+          </label>
+          <label>
+            Cidade:
+            <input
+              type="text"
+              value={cidade}
+              onChange={(e) => setCidade(e.target.value)}
+            />
+          </label>
+          <label>
+            Estado:
+            <input
+              type="text"
+              value={estado}
+              onChange={(e) => setEstado(e.target.value)}
+            />
+          </label>
+        </div>
+        <div className="contatoPhone">
+          <label>
+            Celular:
+            <input
+              type="text"
+              value={celular}
+              onChange={(e) => setCelular(e.target.value)}
+            />
+          </label>
+          <label>
+            Email:
+            <input
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+          </label>
+        </div>
+        <br />
+        <label>
+          Projeto:
+          <input type="file" accept=".pdf" onChange={handleProjetoChange} />
+        </label>
+        <br />
+        <button type="submit">Enviar</button>
+      </form>
+    </>
   );
 };
 

@@ -8,3 +8,26 @@
 .linhaFooter{
   color: #f5f5f5;
 }
+
+
+/* Estilos específicos para dispositivos móveis */
+@media (max-width: 767px) {
+  .nome-empresa {
+    width: 100%;
+    color: #f5f5f5;
+    background-color: #bf2a2a;
+    padding: 10px;
+    text-align: center; /* Centraliza o texto */
+  }
+  
+  .linhaFooter {
+    color: #f5f5f5;
+    display: none; /* Esconde a linha horizontal em dispositivos móveis */
+  }
+  
+  /* Estilos específicos para dispositivos móveis */
+    .nome-empresa {
+      font-size: 16px; /* Ajusta o tamanho da fonte para dispositivos móveis */
+    }
+  }
+  

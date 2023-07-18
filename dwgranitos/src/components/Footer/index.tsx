@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="divFooter navbar-fixed-bottom">
       <footer className="footer">
         <div className="logoRodape">
-          <Image src={LogoRodape} />
+          <Image className="logoFooter" src={LogoRodape} />
         </div>
         <div className="coluna-contato">
           <h3>Contato</h3>

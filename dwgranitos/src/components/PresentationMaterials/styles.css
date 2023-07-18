@@ -33,20 +33,26 @@
 
 @media (max-width: 800px) {
   .presentation-materials {
-    text-align: center;
-    align-items: center;
+    width: 100%;
+    text-align: justify;
+    align-items: normal;
     
   }
+  .paragrafo{
+    width: 100%;
+    text-align: justify;
+  }
   .imagens {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     margin-left: 100px!important;
   }
 
   .imagens img {
-    flex:  0  0  10%; /* 25% para cada imagem, para que ocupem 4 colunas */
-    margin-left: 10px;
-    margin: 0; 
+    display: block;
+    width: 100%;
+    flex-wrap: nowrap;
+  
   }
   
 }

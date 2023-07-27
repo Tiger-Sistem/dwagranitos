@@ -32,11 +32,34 @@
     bottom: 55px;
   }
 }
+@media (max-width: 868px) {
+  .menu {
+    position: relative;  
+    left: 520px;
+    bottom: 55px;
+  }
+}
 
 @media (max-width: 768px) {
   .menu {
     position: relative;  
     left: 500px;
+    bottom: 55px;
+  }
+}
+
+@media (max-width: 500px) {
+  .menu {
+    position: relative;  
+    left: 350px;
+    bottom: 55px;
+  }
+}
+
+@media (max-width: 400px) {
+  .menu {
+    position: relative;  
+    left: 290px;
     bottom: 55px;
   }
 }

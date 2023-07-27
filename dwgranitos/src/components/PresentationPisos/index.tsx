@@ -11,8 +11,8 @@ const PresentationPisos = () => {
     <div className="presentation-pisos">
       <h2 className="titulo">Pisos</h2>
 
-      <p className="paragrafo">Texto do parágrafo centralizado</p>
-      <div className="imagens granito">
+      <p className="paragrafoPiso">Texto do parágrafo centralizado</p>
+      <div className="imagensParagrafo granito">
         <img src={PisoBegeBahia} alt="Imagem 1" />
         <img src={RodapePolido} alt="Imagem 2" />
         <img src={PisoElevado} alt="Imagem 3" />

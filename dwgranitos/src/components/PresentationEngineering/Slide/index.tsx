@@ -1,4 +1,3 @@
-import React from "react";
 import Slider from "react-slick";
 import Engenharia from "../../../assets/images/engenharia/engenharia.jpg";
 import Engenharia2 from "../../../assets/images/engenharia/engenharia1.jpg";

@@ -1,4 +1,4 @@
-import "./styles.css";
+import "../styles.css";
 
 import Escada1 from "../../../assets/images/escadas/escada1.png";
 import Escada2 from "../../../assets/images/escadas/escada2.png";
@@ -12,7 +12,7 @@ export default function EscadasComponent() {
     <div className="presentation-materials">
       <hr className="linha" />
 
-      <div className="imagens imgMaterial">
+      <div className="imagensEng imgMaterialEng">
         <img src={Escada1} alt="Imagem 2" />
         <img src={Escada2} alt="Imagem 3" />
         <img src={Escada3} alt="Imagem 4" />

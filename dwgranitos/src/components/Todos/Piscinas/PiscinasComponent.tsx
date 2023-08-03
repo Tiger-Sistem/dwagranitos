@@ -1,4 +1,4 @@
-import "./styles.css";
+import "../styles.css";
 
 import Piscina1 from "../../../assets/images/piscinas/Piscinas1.png";
 import Piscina2 from "../../../assets/images/piscinas/Piscinas2.png";
@@ -12,7 +12,7 @@ export default function PiscinasComponent() {
     <div className="presentation-materials">
       <hr className="linha" />
 
-      <div className="imagens imgMaterial">
+      <div className="imagensEng imgMaterialEng">
         <img src={Piscina1} alt="Imagem 2" />
         <img src={Piscina2} alt="Imagem 3" />
         <img src={Piscina3} alt="Imagem 4" />

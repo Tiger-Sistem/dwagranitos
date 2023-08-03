@@ -1,4 +1,4 @@
-import "./styles.css";
+import "../styles.css";
 
 import Engenharia from "../../../assets/images/engenharia/engenharia.jpg";
 import Engenharia1 from "../../../assets/images/engenharia/engenharia1.jpg";
@@ -46,7 +46,7 @@ const EngineerDetails = () => {
     <div className="presentation-materials">
       <hr className="linha" />
 
-      <div className="imagens imgMaterial">
+      <div className="imagensEng imgMaterialEng">
         <img src={Engenharia} alt="Imagem 1" />
         <img src={Engenharia1} alt="Imagem 2" />
         <img src={Engenharia2} alt="Imagem 3" />

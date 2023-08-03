@@ -1,4 +1,4 @@
-import "./styles.css";
+import "../styles.css";
 
 import Piso1 from "../../../assets/images/piso/piso-bege-bahia.jpg";
 import Piso2 from "../../../assets/images/piso/piso-elevado-em-sao-paulo.jpg";
@@ -16,7 +16,7 @@ export default function PisoComponent() {
     <div className="presentation-materials">
       <hr className="linha" />
 
-      <div className="imagens imgMaterial">
+      <div className="imagensEng imgMaterialEng">
         <img src={Piso1} alt="Imagem 3" />
         <img src={Piso10} alt="Imagem 4" />
         <img src={Piso2} alt="Imagem 1" />

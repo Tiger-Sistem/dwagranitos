@@ -30,12 +30,16 @@
   height: 200px;
   margin-right: 10px;
   padding: 10px;
+  justify-content: space-between;
+  flex: 0 0 25%; /* 25% para cada imagem, para que ocupem 4 colunas */
+  margin: 0; /* Remover margens */
 }
 
 
 .paragrafoMaterials {
   font-size: 16px;
   margin-bottom: 20px;
+  
 }
 
 .imagensParagrafo {
@@ -43,13 +47,8 @@
   flex-wrap: wrap;
 }
 
-.imagensParagrafo img {
-  flex: 0 0 25%; /* 25% para cada imagem, para que ocupem 4 colunas */
-  margin: 0; /* Remover margens */
-  padding: 0;
-  margin-right:0px !important;
-  
-}
+
+
 
 @media (max-width: 800px) {
   .presentation-materials {

@@ -38,7 +38,7 @@ const PresentationMaterials = () => {
         proporcionando soluções sofisticadas e elegantes para todos os seus
         projetos."
       </p>
-      <div className="imagensMaterials imgMaterial">
+      <div className="imagensMaterials ">
         <img src={AmareloFlorença} alt="Imagem 1" />
         <img src={AmareloVitoria} alt="Imagem 2" />
         <img src={Arabescato} alt="Imagem 3" />

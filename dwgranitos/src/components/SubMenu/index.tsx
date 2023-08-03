@@ -32,8 +32,6 @@ const Submenu = ({ onSelecionarComponente }: any) => {
           PISCINAS
         </a>
       </li>
-
-      {/* Adicione os outros itens do submenu */}
     </ul>
   );
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.css";
+import "../styles.css";
 
 import Engenharia from "../../../assets/images/engenharia/engenharia.jpg";
 import Engenharia3 from "../../../assets/images/engenharia/engenharia3.jpg";
@@ -18,7 +18,7 @@ export function ComercialComponent() {
     <div className="presentation-materials">
       <hr className="linha" />
 
-      <div className="imagens imgMaterial">
+      <div className="imagensEng imgMaterialEng">
         <img src={Engenharia} alt="Imagem 1" />
         <img src={Engenharia3} alt="Imagem 4" />
         {/* --------------------------------- */}

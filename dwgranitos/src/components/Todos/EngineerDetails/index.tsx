@@ -40,12 +40,15 @@ import Piscina3 from "../../../assets/images/piscinas/Piscinas3.png";
 import Piscina4 from "../../../assets/images/piscinas/Piscinas4.png";
 import Piscina5 from "../../../assets/images/piscinas/Piscinas5.png";
 import Piscina6 from "../../../assets/images/piscinas/Piscinas6.png";
+import Piscina7 from "../../../assets/images/piscinas/piscina7.jpg";
+import Piscina8 from "../../../assets/images/piscinas/piscina8.jpg";
+import Piscina9 from "../../../assets/images/piscinas/piscina9.jpg";
+import Piscina10 from "../../../assets/images/piscinas/piscina10.jpg";
 
 const EngineerDetails = () => {
   return (
     <div className="presentation-materials">
       <hr className="linha" />
-
       <div className="imagensEng imgMaterialEng">
         <img src={Engenharia} alt="Imagem 1" />
         <img src={Engenharia1} alt="Imagem 2" />
@@ -90,6 +93,10 @@ const EngineerDetails = () => {
         <img src={Piscina4} alt="Imagem 1" />
         <img src={Piscina5} alt="Imagem 2" />
         <img src={Piscina6} alt="Imagem 3" />
+        <img src={Piscina7} alt="Imagem 8" />
+        <img src={Piscina8} alt="Imagem 9" />
+        <img src={Piscina9} alt="Imagem 10" />
+        <img src={Piscina10} alt="Imagem 11" />
       </div>
     </div>
   );

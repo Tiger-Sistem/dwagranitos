@@ -22,7 +22,7 @@
 
 .imagensEng {
   display: grid; /* Usar grid para organizar as imagens */
-  grid-template-columns: repeat(4, 1fr); /* 4 colunas iguais */
+  grid-template-columns: repeat(5, 1fr); /* 4 colunas iguais */
   gap: 10px; /* Espaçamento entre as imagens */
   justify-items: center; /* Centralizar as imagens horizontalmente */
 }

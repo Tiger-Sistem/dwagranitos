@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./styles.css";
 import { Link } from "react-router-dom";
 
@@ -7,6 +7,10 @@ const MenuHamburger = () => {
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+  };
+
+  const closeMenu = () => {
+    setIsOpen(false); // Define isOpen como false para fechar o menu
   };
 
   return (
@@ -22,28 +26,39 @@ const MenuHamburger = () => {
       {isOpen && (
         <ul className="menu-items">
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" onClick={closeMenu}>
+              Home
+            </Link>
           </li>
           <li>
-            <Link to="/sobre">Quem somos</Link>
+            <Link to="/sobre" onClick={closeMenu}>
+              Quem somos
+            </Link>
           </li>
           <li>
-            <Link to="/catalogo">Catálogo</Link>
+            <Link to="/catalogo" onClick={closeMenu}>
+              Catálogo
+            </Link>
           </li>
           <li>
-            <Link to="/engenharia">Engenharia</Link>
+            <Link to="/engenharia" onClick={closeMenu}>
+              Engenharia
+            </Link>
           </li>
           <li>
-            <Link to="/pisos">Pisos</Link>
+            <Link to="/blog" onClick={closeMenu}>
+              Blog
+            </Link>
           </li>
           <li>
-            <Link to="/blog">Blog</Link>
+            <Link to="/orcamento" onClick={closeMenu}>
+              Orçamento
+            </Link>
           </li>
           <li>
-            <Link to="/orcamento">Orçamento</Link>
-          </li>
-          <li>
-            <Link to="/contato">Contato</Link>
+            <Link to="/contato" onClick={closeMenu}>
+              Contato
+            </Link>
           </li>
         </ul>
       )}

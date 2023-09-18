@@ -15,7 +15,6 @@ const Home = () => {
       <PresentationMaterials />
       <PresentationPisos />
       <PresentationEngineering />
-      {/* <News /> */}
     </div>
   );
 };

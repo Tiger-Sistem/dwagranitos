@@ -33,6 +33,12 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adicionar uma sombra sutil */
 }
 
+@media (max-width: 1230px) {
+  .imagensEng {
+    grid-template-columns: repeat(4, 1fr); /* 2 colunas iguais em telas menores */
+  }
+}
+
 @media (max-width: 1030px) {
   .imagensEng {
     grid-template-columns: repeat(3, 1fr); /* 2 colunas iguais em telas menores */
@@ -46,6 +52,12 @@
 }
 
 @media (max-width: 700px) {
+  .imagensEng {
+    grid-template-columns: repeat(1, 1fr); /* 2 colunas iguais em telas menores */
+  }
+}
+
+@media (max-width: 420px) {
   .imagensEng {
     grid-template-columns: repeat(1, 1fr); /* 2 colunas iguais em telas menores */
   }

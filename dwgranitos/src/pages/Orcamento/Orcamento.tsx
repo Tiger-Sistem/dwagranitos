@@ -1,4 +1,4 @@
-import React, { useState, ChangeEvent } from "react";
+import React, { useState, ChangeEvent, useEffect } from "react";
 import "./Formulario.css"; // Importe o arquivo de estilo
 import Title from "../../components/Title";
 
@@ -10,6 +10,11 @@ const Formulario = () => {
   const [celular, setCelular] = useState("");
   const [email, setEmail] = useState("");
   const [projeto, setProjeto] = useState<File | undefined>(undefined);
+  const [titulo, setTitulo] = useState("Orçamento");
+
+  useEffect(() => {
+    document.title = titulo;
+  }, [titulo]);
 
   const handleSubmit = (e: { preventDefault: () => void }) => {
     e.preventDefault();

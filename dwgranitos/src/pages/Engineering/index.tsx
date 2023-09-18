@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./styles.css";
 import Submenu from "../../components/SubMenu";
 import Title from "../../components/Title";
@@ -10,6 +10,11 @@ import EscadasComponent from "../../components/Todos/Escadas/EscadasComponent";
 
 const Engineering = () => {
   const [componenteAtivo, setComponenteAtivo] = useState("todos");
+  const [titulo, setTitulo] = useState("Engenharia");
+
+  useEffect(() => {
+    document.title = titulo;
+  }, [titulo]);
 
   const renderizarComponente = () => {
     switch (componenteAtivo) {

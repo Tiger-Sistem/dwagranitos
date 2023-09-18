@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Slider from "../../components/Slider";
 import CorpoHome from "../../components/Corpo";
 import PresentationMaterials from "../../components/PresentationMaterials";
@@ -8,6 +8,11 @@ import PresentationEngineering from "../../components/PresentationEngineering";
 // import Footer from "../../components/Footer";
 
 const Home = () => {
+  const [titulo, setTitulo] = useState("DW Granitos");
+
+  useEffect(() => {
+    document.title = titulo;
+  }, [titulo]);
   return (
     <div>
       <Slider />

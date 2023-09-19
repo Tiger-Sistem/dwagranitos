@@ -1,0 +1,40 @@
+.presentation-materials {
+  text-align: center;
+  margin: 0 auto; /* Centralizar o conteúdo horizontalmente */
+  max-width: 1200px; /* Largura máxima do conteúdo */
+}
+
+.titulo {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.linha {
+  border: none;
+  border-top: 1px solid #000;
+  margin-bottom: 10px;
+}
+
+.paragrafo {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.imagensEng {
+  display: grid; /* Usar grid para organizar as imagens */
+  grid-template-columns: repeat(4, 1fr); /* 4 colunas iguais */
+  gap: 10px; /* Espaçamento entre as imagens */
+  justify-items: center; /* Centralizar as imagens horizontalmente */
+}
+
+.imagensEng img {
+  width: 200px; /* Preencher o espaço disponível na coluna */
+  height: 200px; /* Manter a proporção original da imagem */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adicionar uma sombra sutil */
+}
+
+@media (max-width: 800px) {
+  .imagens {
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas iguais em telas menores */
+  }
+}

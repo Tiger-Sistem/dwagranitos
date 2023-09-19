@@ -11,7 +11,10 @@ const PresentationPisos = () => {
     <div className="presentation-pisos">
       <h2 className="titulo">Pisos</h2>
 
-      <p className="paragrafoPiso">Texto do parágrafo centralizado</p>
+      <p className="paragrafoPiso">
+        Conheça aqui as diversas opções de cores, acabamentos e medidas - um
+        produto ideal para cada tipo de aplicação.
+      </p>
       <div className="imagensParagrafo granito">
         <img src={PisoBegeBahia} alt="Imagem 1" />
         <img src={RodapePolido} alt="Imagem 2" />

@@ -17,9 +17,6 @@ function Menu() {
         <li>
           <Link to="/engenharia">Engenharia</Link>
         </li>
-        {/* <li>
-          <Link to="/pisos">Pisos</Link>
-        </li> */}
         <li>
           <Link to="/blog">Blog</Link>
         </li>

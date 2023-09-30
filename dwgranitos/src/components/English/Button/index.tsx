@@ -1,14 +1,20 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import "./styles.css";
+import { Link } from "react-router-dom";
 
 interface ButtonProps {
   buttonText: string;
+  to: string;
 }
-const Button = ({ buttonText }: ButtonProps) => {
+const Button = ({ buttonText, to }: ButtonProps) => {
   return (
-    <div className="button-container">
-      <button className="catalog-button">{buttonText}</button>
-    </div>
+    <>
+      <Link className="linkButton" to={to}>
+        <div className="button-container">
+          <button className="catalog-button">{buttonText}</button>
+        </div>
+      </Link>
+    </>
   );
 };
 

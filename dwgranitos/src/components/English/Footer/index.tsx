@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 const FooterEnglish = () => {
   return (
     <div className="divFooter navbar-fixed-bottom">
+      <hr style={{ color: "#0c0c0c" }} />
       <footer className="footer">
         <div className="logoRodape">
           <Image className="logoFooter" src={LogoRodape} />
@@ -33,7 +34,7 @@ const FooterEnglish = () => {
               <li>
                 <Link
                   style={{
-                    color: "white",
+                    color: "#0c0c0c",
                     textDecoration: "none",
                   }}
                   to="/en/about"
@@ -44,7 +45,7 @@ const FooterEnglish = () => {
               {/* <li>
                 <Link
                   style={{
-                    color: "white",
+                    color: "#0c0c0c",
                     textDecoration: "none",
                   }}
                   to="/en/blog"
@@ -55,7 +56,7 @@ const FooterEnglish = () => {
               <li>
                 <Link
                   style={{
-                    color: "white",
+                    color: "#0c0c0c",
                     textDecoration: "none",
                   }}
                   to="/en/contact"

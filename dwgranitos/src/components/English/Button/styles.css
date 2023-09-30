@@ -5,8 +5,13 @@
   border: none;
   padding-top: 20px;
 }
-
+.linkButton {
+  list-style: none;
+  text-decoration: none!important;
+}
 .catalog-button{
+  list-style: none;
+  text-decoration: none!important;
   color: white;
   width: 400px;
   align-items: center;

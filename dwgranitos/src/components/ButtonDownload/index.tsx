@@ -8,7 +8,11 @@ const ButtonDownload = () => {
     link.click();
   };
 
-  return <button onClick={handleDownload}>Baixar Catálogo</button>;
+  return (
+    <button className="catalog-button" onClick={handleDownload}>
+      Baixar Catálogo
+    </button>
+  );
 };
 
 export default ButtonDownload;

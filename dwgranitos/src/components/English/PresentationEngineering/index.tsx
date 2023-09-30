@@ -20,7 +20,7 @@ const PresentationEngineering = () => {
         <Slide />
       </div>
 
-      <Button buttonText="More Projects" />
+      <Button to={"/en/engineering"} buttonText="More Projects" />
     </div>
   );
 };

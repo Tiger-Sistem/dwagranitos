@@ -1,12 +1,14 @@
 .divFooter{
-  background-color: #bf2a2a;
+  background-color: #ffffff;
 
 }
+
+
 
 .footer {
   margin-top: auto;
   padding: 10px;
-  color: #f5f5f5;
+  color: #0c0c0c;
   display: flex;
   align-items: center;
   justify-content: space-between;

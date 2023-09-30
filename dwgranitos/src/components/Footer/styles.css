@@ -1,5 +1,5 @@
 .divFooter{
-  background-color: #bf2a2a;
+  background-color: #0a0a0a;
 
 }
 
@@ -28,6 +28,8 @@
 .coluna-links ul {
   list-style: none;
   padding: 0;
+  color: #0c0c0c;
+
 }
 
 .coluna-links ul li {

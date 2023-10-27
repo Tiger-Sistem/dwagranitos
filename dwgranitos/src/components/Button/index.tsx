@@ -6,7 +6,7 @@ interface ButtonProps {
   buttonText: string;
   to: string;
 }
-const Button = ({ buttonText }: ButtonProps) => {
+const Button = ({ buttonText, to }: ButtonProps) => {
   return (
     <Link className="linkButton" to={to}>
       <div className="button-container">

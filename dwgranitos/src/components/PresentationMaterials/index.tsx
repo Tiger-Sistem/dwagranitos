@@ -65,7 +65,7 @@ const PresentationMaterials = () => {
         <img src={amarelosantacecilia} alt="Imagem 3" />
         <img src={begebahia} alt="Imagem 4" />
       </div>
-      <Button buttonText="Veja Nosso Catálogo" />
+      <Button buttonText="Veja Nosso Catálogo" to={"/catalogo"} />
     </div>
   );
 };

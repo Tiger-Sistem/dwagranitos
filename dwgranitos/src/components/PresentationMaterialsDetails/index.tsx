@@ -40,31 +40,133 @@ const PresentationMaterialsDetails = () => {
         para atender às suas demandas.
       </p>
       <div className="imagensMaterialsDetails imgMaterial">
-        <img src={AmareloFlorença} alt="Imagem 1" />
+        <div className="imagem-container">
+          <div className="image-wrapper">
+          <span>Amarelo Florença</span> <br/>
+            <img className="imgCap" src={AmareloFlorença} alt="Imagem 1" />           
+          </div>
+        </div>
+        <div className="imagem-container">
+          <div className="image-wrapper">
+          <span>Amarelo Vitória</span><br/>
         <img src={AmareloVitoria} alt="Imagem 2" />
+         </div>
+        </div>
+        <div className="imagem-container">
+          <div className="image-wrapper">
+          <span>Arabescato</span><br/>
         <img src={Arabescato} alt="Imagem 3" />
+        </div>
+        </div>
+        <div className="imagem-container">
+          <div className="image-wrapper">
+          <span>Arabesco</span><br/>
         <img src={Arabesco} alt="Imagem 4" />
+        </div>
+        </div>
         {/* --------------------------------- */}
+        <div className="imagem-container">
+          <div className="image-wrapper">
+          <span>Bege Prime Liso</span><br/>
         <img src={BegePrimeLiso} alt="Imagem 1" />
+        </div>
+        </div>
+        <div className="imagem-container">
+          <div className="image-wrapper">
+          <span>Bege Prime Paradise</span><br/>
         <img src={BegePrimeParadise} alt="Imagem 2" />
+        </div>
+        </div>
+        <div className="imagem-container">
+          <div className="image-wrapper">
+          <span>Branco Fortaleza</span><br/>
         <img src={BrancoFortaleza} alt="Imagem 3" />
+        </div>
+        </div>
+        <div className="imagem-container">
+          <div className="image-wrapper">
+          <span>Branco Prime</span><br/>
         <img src={BrancoPrime} alt="Imagem 4" />
+        </div>
+        </div>
         {/* --------------------------------- */}
         {/* Adicione mais imagens conforme necessário */}
+        <div className="imagem-container">
+          <div className="image-wrapper">
+          <span>Marrom Tabaco</span><br/>
         <img src={MarromTabaco} alt="Imagem 1" />
+        </div>
+        </div>
+        <div className="imagem-container">
+          <div className="image-wrapper">
+          <span>Preto Santa Angélica</span><br/>
         <img src={PretoSantaAngélica} alt="Imagem 3" />
+        </div>
+        </div>
+        <div className="imagem-container">
+          <div className="image-wrapper">
+          <span>Ornamental Valcélio</span><br/>
         <img src={OrnamentalValcélio} alt="Imagem 2" />
+        </div>
+        </div>
+        <div className="imagem-container">
+          <div className="image-wrapper">
+          <span>Preto Via Lactea</span><br/>
         <img src={PretoViaLactea} alt="Imagem 4" />
+        </div>
+        </div>
         {/* ------------------------------------- */}
+
+        <div className="imagem-container">
+          <div className="image-wrapper">
+          <span>Super Prime</span> <br/>
         <img src={SuperPrime} alt="Imagem 1" />
+        </div>
+        </div>
+        <div className="imagem-container">
+          <div className="image-wrapper">
+          <span>Super Nano</span> <br/>
         <img src={Supernano} alt="Imagem 2" />
+        </div>
+        </div>
+        <div className="imagem-container">
+          <div className="image-wrapper">
+          <span>Verde Ubatuba</span> <br/>
         <img src={VerdeUbatuba} alt="Imagem 3" />
+        </div>
+        </div>
+        <div className="imagem-container">
+          <div className="image-wrapper">
+          <span>Amarelo Capri</span> <br/>
         <img src={amarelocapri} alt="Imagem 4" />
         {/* ------------------------------------- */}
+        </div>
+        </div>
+        <div className="imagem-container">
+          <div className="image-wrapper">
+          <span>Amarelo Ícaraí</span> <br/>
         <img src={amareloicarai} alt="Imagem 1" />
+        </div>
+        </div>
+        <div className="imagem-container">
+          <div className="image-wrapper">
+          <span>Amarelo Maracujá</span> <br/>
         <img src={amarelomaracuja} alt="Imagem 2" />
+        </div>
+        </div>
+        <div className="imagem-container">
+          <div className="image-wrapper">
+          <span>Amarelo Santa Cecilia</span> <br/>
         <img src={amarelosantacecilia} alt="Imagem 3" />
-        <img src={begebahia} alt="Imagem 4" />
+        </div>
+        </div>
+        <div className="imagem-container">
+
+          <div className="image-wrapper">
+          <span>Bege Bahia</span> <br/>
+        <img src={begebahia} alt="Imagem 4" data-name="BegeBahia" />
+        </div>
+      </div>
       </div>
       <div>
         <h2 className="titulo">Linha Marble</h2>

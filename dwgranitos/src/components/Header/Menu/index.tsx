@@ -17,9 +17,9 @@ function Menu() {
         <li>
           <Link to="/engenharia">Engenharia</Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="/blog">Blog</Link>
-        </li>
+        </li> */}
         <li>
           <Link to="/orcamento">Orçamento</Link>
         </li>

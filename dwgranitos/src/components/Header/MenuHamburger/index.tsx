@@ -45,11 +45,11 @@ const MenuHamburger = () => {
               Engenharia
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/blog" onClick={closeMenu}>
               Blog
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link to="/orcamento" onClick={closeMenu}>
               Orçamento

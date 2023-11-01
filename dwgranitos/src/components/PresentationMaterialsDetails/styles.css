@@ -141,3 +141,25 @@
 .image-wrapper:hover .caption {
   opacity: 1;
 }
+
+
+.imagem-container1 {
+  position: relative;
+  width: 48%; /* 25% para manter a mesma proporção original */
+  margin-right: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.image-wrapper1 {
+  position: relative;
+  margin: 10;
+  /* padding-right: 10px; */
+  /* width: 100%; */
+
+}
+
+.image-wrapper1 img {
+  width: 100% !important;
+  height: 140px;
+}

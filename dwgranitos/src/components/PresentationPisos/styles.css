@@ -1,0 +1,110 @@
+.presentation-pisos {
+  text-align: center;
+  background-color: #976b65;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.titulo {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.linha {
+  border: none;
+  border-top: 1px solid #000;
+  margin-bottom: 10px;
+}
+
+.paragrafoPiso {
+  font-size: 18px!important;
+  margin-bottom: 20px;
+}
+
+.imagensParagrafo {
+  display: flex;
+}
+
+.imagensParagrafo img {
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+  padding: 10px;
+  justify-content: space-between;
+  flex: 0 0 25%; /* 25% para cada imagem, para que ocupem 4 colunas */
+  margin: 0; /* Remover margens */
+}
+
+
+.paragrafoMaterials {
+  font-size: 16px;
+  margin-bottom: 20px;
+  
+}
+
+.imagensParagrafo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+
+@media (max-width: 800px) {
+  .presentation-materials {
+    width: 100%;
+    text-align: justify;
+    align-items: normal;
+    
+  }
+  .paragrafoMaterials{
+    width: 100%;
+    text-align: justify;
+    padding: 20px;
+    margin: 0;
+  }
+  .imagensParagrafo {
+    display: block;
+    flex-wrap: wrap;
+    margin-left: 100px!important;
+  }
+
+  .imagensParagrafo img {
+    display: block;
+    width: 100%;
+    flex-wrap: nowrap;
+  
+  }
+  
+}
+
+@media (max-width: 500px) {
+  .presentation-materials {
+    width: 100%;
+    text-align: justify;
+    align-items: normal;
+    
+  }
+  .paragrafoMaterials{
+    width: 100%;
+    text-align: justify;
+    padding: 20px;
+    margin: 0;
+  }
+  .imagensParagrafo {
+    display: block;
+    flex-wrap: wrap;
+    margin-left: 0px!important;
+  }
+
+  .imagensParagrafo img {
+    display: block;
+    width: 100%;
+    padding: 20px;
+  
+  }
+  
+}
+
+
+

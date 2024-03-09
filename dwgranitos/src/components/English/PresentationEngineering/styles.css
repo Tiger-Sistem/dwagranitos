@@ -1,0 +1,78 @@
+.presentation-engineering {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.titulo {
+  padding-top: 20px;
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+
+.linha {
+  border: none;
+  border-top: 1px solid #000;
+  margin-bottom: 10px;
+}
+
+.paragrafoEngineer {
+  padding-top: 10px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+.imagem {
+  display: flex;
+  
+}
+
+.subSlider{
+  width: 100%;
+}
+
+.imgEngenharia img{
+  width: 100%;
+  height: 400px;
+}
+
+
+@media (max-width: 800px) {
+  .presentation-materials {
+    width: 100%;
+    text-align: justify;
+    align-items: normal;
+    
+  }
+  .paragrafoEngineer{
+    width: 100%;
+    text-align: justify;
+    padding: 20px;
+    margin: 0;
+  }
+  .imgEngenharia img{
+    width: 100%;
+    height: 200px;
+  }
+  
+}
+
+@media (max-width: 500px) {
+  .presentation-materials {
+    width: 100%;
+    text-align: justify;
+    align-items: normal;
+  }
+  .paragrafoEngineer{
+    width: 100%;
+    text-align: justify;
+    padding: 20px;
+    margin: 0;
+ }
+}
+
+
+

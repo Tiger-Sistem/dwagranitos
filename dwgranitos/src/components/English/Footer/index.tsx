@@ -15,8 +15,8 @@ const FooterEnglish = () => {
         </div>
         <div className="coluna-contato">
           <h3>Contact</h3>
-          <p>Phone: (28) 3524-2288</p>
-          <p>Cell: (28) 99956-3579</p>
+          <p>Phone: (28) 99951-1643</p>
+          <p>Cell: (28) 99951-1643</p>
           <p>Email: comercial@dwgranitos.com.br</p>
         </div>
         <div className="coluna-endereco">

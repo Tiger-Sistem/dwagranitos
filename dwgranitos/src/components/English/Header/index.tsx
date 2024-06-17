@@ -18,7 +18,7 @@ function Header() {
             <div className="left-icons">
               <FontAwesomeIcon icon={faPhone} />
             </div>
-            <aside className="phoneAside"> (28) 3524 2288</aside>
+            <aside className="phoneAside"> (28) 99951-1643</aside>
 
             <aside> WHATSAPP: (28) 99956-3579 |</aside>
             <FontAwesomeIcon icon={faInstagram} className="icone-destaque" />

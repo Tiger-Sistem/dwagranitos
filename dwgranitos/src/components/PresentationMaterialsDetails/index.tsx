@@ -178,7 +178,6 @@ const PresentationMaterialsDetails = (): React.ReactElement => {
 
       <LineToYou />
       <Laminattos/>
-
       <div>
         <h2 className="titulo">Linha Exóticos </h2>
       </div>

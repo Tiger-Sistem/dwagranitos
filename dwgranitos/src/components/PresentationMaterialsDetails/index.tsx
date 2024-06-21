@@ -1,7 +1,6 @@
 import React from "react";
 import "./styles.css";
 
-import Button from "../Button";
 import AmareloFlorença from "../../assets/images/material/Amarelo-Florença-1024x683.jpg";
 import AmareloVitoria from "../../assets/images/material/Amarelo-Vitória-1024x683.jpg";
 import Arabescato from "../../assets/images/material/Arabescato-1024x683.jpg";
@@ -26,6 +25,7 @@ import amarelomaracuja from "../../assets/images/material/amarelo-maracuja.jpg";
 import amarelosantacecilia from "../../assets/images/material/amarelo-santa-cecilia.jpg";
 import begebahia from "../../assets/images/material/bege-bahia.jpg";
 import { LineToYou } from "./LineToYou";
+import { Laminattos } from "./Laminattos";
 
 
 
@@ -177,6 +177,7 @@ const PresentationMaterialsDetails = (): React.ReactElement => {
 
 
       <LineToYou />
+      <Laminattos/>
 
       <div>
         <h2 className="titulo">Linha Exóticos </h2>

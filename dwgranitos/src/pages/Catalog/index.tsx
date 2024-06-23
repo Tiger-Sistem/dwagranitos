@@ -1,15 +1,10 @@
-import { useEffect, useState } from "react";
 import PresentationMaterialsDetails from "../../components/PresentationMaterialsDetails";
 import Title from "../../components/Title";
+import "./styles-catalog.css"
 
 const Catalog = () => {
-  const [titulo, setTitulo] = useState("Catálogo");
-
-  useEffect(() => {
-    document.title = titulo;
-  }, [titulo]);
   return (
-    <div>
+    <div className="catalog">
       <Title title="Catálogo" />
       <PresentationMaterialsDetails />
     </div>

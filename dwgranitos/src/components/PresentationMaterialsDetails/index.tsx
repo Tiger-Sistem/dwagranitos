@@ -26,6 +26,7 @@ import amarelosantacecilia from "../../assets/images/material/amarelo-santa-ceci
 import begebahia from "../../assets/images/material/bege-bahia.jpg";
 import { LineToYou } from "./LineToYou";
 import { Laminattos } from "./Laminattos";
+import { Exotics } from "./Exotics";
 
 
 
@@ -178,9 +179,7 @@ const PresentationMaterialsDetails = (): React.ReactElement => {
 
       <LineToYou />
       <Laminattos/>
-      <div>
-        <h2 className="titulo">Linha Exóticos </h2>
-      </div>
+      <Exotics />
     </div>
   );
 };

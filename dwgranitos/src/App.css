@@ -29,4 +29,11 @@ body {
   padding-right: 0 !important;
   margin-left: 0 !important;
   margin-right: 0 !important;
+  
+}
+
+html, body{
+  margin:0px !important;
+  padding: 0px !important;
+  background-color: #f5f5f5!important;
 }

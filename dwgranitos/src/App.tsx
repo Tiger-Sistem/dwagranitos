@@ -10,7 +10,7 @@ function App() {
 
   return (
     <LanguageProvider>
-      <div className="App">
+      <div>
         <Header />
       </div>
     </LanguageProvider>

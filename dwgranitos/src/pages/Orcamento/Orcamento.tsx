@@ -7,10 +7,20 @@ const Formulario = () => {
   const [empresa, setEmpresa] = useState("");
   const [cidade, setCidade] = useState("");
   const [estado, setEstado] = useState("");
-  const [celular, setCelular] = useState("");
+  const [cep, setCep] = useState("");
+  const [celular, setCelular] = useState("");  
   const [email, setEmail] = useState("");
   const [projeto, setProjeto] = useState<File | undefined>(undefined);
-  const [titulo, setTitulo] = useState("Orçamento");
+    const [titulo, setTitulo] = useState("Orçamento");
+
+  const [cnpj, setCnpj] = useState("");
+  const [inscricaoEstadual, setInscricaoEstadual] = useState("");
+  const [endereco, setEndereco] = useState("");
+  const [bairro, setBairro] = useState("");
+  const [telefone, setTelefone] = useState("");
+  const [enderecoCobranca, setEnderecoCobranca] = useState("");
+  const [contato, setContato] = useState("");
+
 
   useEffect(() => {
     document.title = titulo;
@@ -37,6 +47,8 @@ const Formulario = () => {
     formData.append("celular", celular);
     formData.append("email", email);
     formData.append("projeto", projeto as Blob);
+
+    
 
     // Fazer uma requisição para o backend usando fetch ou axios
     fetch("/caminho-do-arquivo-php.php", {
@@ -69,24 +81,49 @@ const Formulario = () => {
     <>
       <Title title="Orçamento" />
       <form className="formulario" onSubmit={handleSubmit}>
+      <div className="descriptionName">
         <label>
-          Nome:
+          Nome/Razão Social:
           <input
             type="text"
             value={nome}
             onChange={(e) => setNome(e.target.value)}
           />
         </label>
+        </div>
 
-        <div className="address">
-          <label>
-            Empresa:
+        <div className="description">
+        <label>
+        CPF/CNPJ:
             <input
               type="text"
               value={empresa}
               onChange={(e) => setEmpresa(e.target.value)}
             />
           </label>
+          <label>
+            I.E.:
+            <input
+              type="text"
+              value={inscricaoEstadual}
+              onChange={(e) => setInscricaoEstadual(e.target.value)}
+            />
+          </label>
+        </div>
+
+        <div className="descriptionAddress">
+        <label>
+          Endereço:
+          <input
+            type="text"
+            value={nome}
+            onChange={(e) => setNome(e.target.value)}
+          />
+        </label>
+        </div>
+
+
+        <div className="address">        
           <label>
             Cidade:
             <input
@@ -104,6 +141,12 @@ const Formulario = () => {
             />
           </label>
         </div>
+
+
+
+
+
+
         <div className="contatoPhone">
           <label>
             Celular:

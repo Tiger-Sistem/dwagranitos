@@ -8,18 +8,15 @@ const Formulario = () => {
   const [cidade, setCidade] = useState("");
   const [estado, setEstado] = useState("");
   const [cep, setCep] = useState("");
-  const [celular, setCelular] = useState("");  
+  const [celular, setCelular] = useState("");
   const [email, setEmail] = useState("");
   const [projeto, setProjeto] = useState<File | undefined>(undefined);
-    const [titulo, setTitulo] = useState("Orçamento");
+  const [titulo, setTitulo] = useState("Orçamento");
 
   const [cnpj, setCnpj] = useState("");
   const [inscricaoEstadual, setInscricaoEstadual] = useState("");
   const [endereco, setEndereco] = useState("");
-  const [bairro, setBairro] = useState("");
   const [telefone, setTelefone] = useState("");
-  const [enderecoCobranca, setEnderecoCobranca] = useState("");
-  const [contato, setContato] = useState("");
 
 
   useEffect(() => {
@@ -28,7 +25,6 @@ const Formulario = () => {
 
   const handleSubmit = (e: { preventDefault: () => void }) => {
     e.preventDefault();
-    // Aqui você pode chamar a função que envia os dados para o backend
     enviarDados();
   };
 
@@ -38,7 +34,6 @@ const Formulario = () => {
   };
 
   const enviarDados = () => {
-    // Criar uma instância de FormData para enviar os dados como um formulário
     const formData = new FormData();
     formData.append("nome", nome);
     formData.append("empresa", empresa);
@@ -46,20 +41,17 @@ const Formulario = () => {
     formData.append("estado", estado);
     formData.append("celular", celular);
     formData.append("email", email);
-    formData.append("projeto", projeto as Blob);
+    if (projeto) {
+      formData.append("projeto", projeto);
+    }
 
-    
-
-    // Fazer uma requisição para o backend usando fetch ou axios
     fetch("/caminho-do-arquivo-php.php", {
       method: "POST",
       body: formData,
     })
       .then((response) => {
-        // Verificar a resposta do servidor e realizar as ações apropriadas
         if (response.ok) {
           alert("Dados enviados com sucesso!");
-          // Limpar os campos do formulário
           setNome("");
           setEmpresa("");
           setCidade("");
@@ -81,24 +73,24 @@ const Formulario = () => {
     <>
       <Title title="Orçamento" />
       <form className="formulario" onSubmit={handleSubmit}>
-      <div className="descriptionName">
-        <label>
-          Nome/Razão Social:
-          <input
-            type="text"
-            value={nome}
-            onChange={(e) => setNome(e.target.value)}
-          />
-        </label>
+        <div className="descriptionName">
+          <label>
+            Nome/Razão Social:
+            <input
+              type="text"
+              value={nome}
+              onChange={(e) => setNome(e.target.value)}
+            />
+          </label>
         </div>
 
         <div className="description">
-        <label>
-        CPF/CNPJ:
+          <label>
+            CPF/CNPJ:
             <input
               type="text"
-              value={empresa}
-              onChange={(e) => setEmpresa(e.target.value)}
+              value={cnpj}
+              onChange={(e) => setCnpj(e.target.value)}
             />
           </label>
           <label>
@@ -112,18 +104,17 @@ const Formulario = () => {
         </div>
 
         <div className="descriptionAddress">
-        <label>
-          Endereço:
-          <input
-            type="text"
-            value={nome}
-            onChange={(e) => setNome(e.target.value)}
-          />
-        </label>
+          <label>
+            Endereço:
+            <input
+              type="text"
+              value={endereco}
+              onChange={(e) => setEndereco(e.target.value)}
+            />
+          </label>
         </div>
 
-
-        <div className="address">        
+        <div className="address">
           <label>
             Cidade:
             <input
@@ -140,14 +131,26 @@ const Formulario = () => {
               onChange={(e) => setEstado(e.target.value)}
             />
           </label>
+
+          <label>
+            CEP:
+            <input
+              type="text"
+              value={cep}
+              onChange={(e) => setCep(e.target.value)}
+            />
+          </label>
         </div>
 
-
-
-
-
-
         <div className="contatoPhone">
+          <label>
+            Telefone:
+            <input
+              type="text"
+              value={telefone}
+              onChange={(e) => setTelefone(e.target.value)}
+            />
+          </label>
           <label>
             Celular:
             <input
@@ -156,6 +159,9 @@ const Formulario = () => {
               onChange={(e) => setCelular(e.target.value)}
             />
           </label>
+        </div>
+
+        <div className="descriptionAddress">
           <label>
             Email:
             <input
@@ -165,10 +171,17 @@ const Formulario = () => {
             />
           </label>
         </div>
-        <br />
-        <label>
+        
+        <label className="file-upload-wrapper">
           Projeto:
-          <input type="file" accept=".pdf" onChange={handleProjetoChange} />
+          <span className="file-upload-button">Escolha um arquivo</span>
+          <input
+            id="file-upload"
+            className="file-upload-input"
+            type="file"
+            accept=".pdf"
+            onChange={handleProjetoChange}
+          />
         </label>
         <br />
         <button type="submit">Enviar</button>

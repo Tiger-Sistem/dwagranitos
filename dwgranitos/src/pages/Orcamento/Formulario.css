@@ -55,7 +55,7 @@
 
 .formulario .descriptionAddress input[type="text"]{
   width: 100%;
-  margin-left: 70px;
+  margin-left: 75px;
   margin-right: 5px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -94,7 +94,7 @@
 
 .formulario .description input[type="text"]{
   width: 100%;
-  margin-left: 70px;
+  margin-left: 75px;
   margin-right: 5px;
   padding: 8px;
   border: 1px solid #ccc;
@@ -170,6 +170,7 @@
 }
 
 .formulario button {
+  width: 100px;
   padding: 10px 20px;
   background-color: #4caf50;
   color: #fff;
@@ -177,7 +178,12 @@
   border-radius: 4px;
   cursor: pointer;
 }
-
+.textArea{
+  width: 100%;
+  padding: 10px;
+  margin-left: 60px;
+  margin-bottom: 15px;
+}
 .formulario button:hover {
   background-color: #45a049;
 }

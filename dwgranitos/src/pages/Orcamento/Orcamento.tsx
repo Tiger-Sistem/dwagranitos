@@ -17,6 +17,7 @@ const Formulario = () => {
   const [inscricaoEstadual, setInscricaoEstadual] = useState("");
   const [endereco, setEndereco] = useState("");
   const [telefone, setTelefone] = useState("");
+  const [mensagem, setMensagem] = useState("");
 
 
   useEffect(() => {
@@ -171,7 +172,7 @@ const Formulario = () => {
             />
           </label>
         </div>
-        
+        <div>
         <label className="file-upload-wrapper">
           Projeto:
           <span className="file-upload-button">Escolha um arquivo</span>
@@ -183,8 +184,18 @@ const Formulario = () => {
             onChange={handleProjetoChange}
           />
         </label>
-        <br />
+        <label>
+          Mensagem:
+          <textarea
+          className="textArea"
+            value={mensagem}
+            onChange={(e) => setMensagem(e.target.value)}
+            rows={4}
+          
+          />
+        </label>
         <button type="submit">Enviar</button>
+        </div>
       </form>
     </>
   );

@@ -26,8 +26,24 @@ const Formulario = () => {
 
   const handleSubmit = (e: { preventDefault: () => void }) => {
     e.preventDefault();
-    enviarDados();
+    // enviarDados();
+    imprimirDados();
   };
+
+  const imprimirDados = () => {
+    console.log({
+      nome,
+      empresa,
+      inscricaoEstadual,
+      cidade,
+      estado,
+      celular,
+      email,
+      mensagem,
+      projeto,
+    });
+  };
+
 
   const handleProjetoChange = (e: ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];

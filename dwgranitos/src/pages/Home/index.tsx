@@ -4,6 +4,7 @@ import CorpoHome from "../../components/Corpo";
 import PresentationMaterials from "../../components/PresentationMaterials";
 import PresentationPisos from "../../components/PresentationPisos";
 import PresentationEngineering from "../../components/PresentationEngineering";
+import "./Home.css"
 // import News from "../../components/News";
 // import Footer from "../../components/Footer";
 
@@ -14,7 +15,7 @@ const Home = () => {
     document.title = titulo;
   }, [titulo]);
   return (
-    <div>
+    <div className="homeMain">
       <Slider />
       <CorpoHome />
       <PresentationMaterials />
